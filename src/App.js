@@ -1,23 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Model from './components/Model';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 style={{ color: "blue", padding: "20px", textAlign: "center", position: "sticky", backgroundColor: "pink" }}>React with R3F</h1>
+      <div style={{backgroundColor: "skyblue"}}><Model /></div>
+     
     </div>
   );
 }
